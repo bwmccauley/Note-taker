@@ -1,14 +1,14 @@
 {
-  "name": "note-taker",
+  "name": "bwmccauleynotetaker",
   "version": "1.0.0",
-  "description": "",
+  "description": "an app to make notes",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index"
+    "dev": "npx nodemon server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "bwmccauley",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
     "save": "^2.9.0"
